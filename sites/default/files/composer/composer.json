@@ -1,0 +1,16 @@
+{
+    "require": {
+        "php": ">=5.3.0",
+        "CEikermann/AmazonSQS": "dev-master"
+    },
+    "config": {
+        "vendor-dir": "../../../all/vendor"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nickveenhof/AmazonSQS"
+        }
+    ],
+    "minimum-stability": "dev"
+}
