@@ -1,8 +1,0 @@
-filename = "AamAadmiPartyDelhiUnit-2013-03-23T05-20-18"
-description = ""
-datestamp = "1364016019"
-generator = "Backup and Migrate (http://drupal.org/project/backup_migrate)"
-generatorversion = "7.x-2.x"
-sites[0][version] = "7.19"
-sites[0][name] = "Aam Aadmi Party, Delhi Unit"
-sites[0][url] = "http://default/"

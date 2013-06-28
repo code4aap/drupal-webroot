@@ -1,8 +1,0 @@
-filename = "AAPcampaignsite-2013-03-22T05-53-09"
-description = ""
-datestamp = "1363931590"
-generator = "Backup and Migrate (http://drupal.org/project/backup_migrate)"
-generatorversion = "7.x-2.x"
-sites[0][version] = "7.19"
-sites[0][name] = "AAP campaign site"
-sites[0][url] = "http://default/"
