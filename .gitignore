@@ -1,0 +1,19 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore the sites.php file that maps multisite URIs to respective sites/DIRECTORY
+# as this would be differnet for each local, dev, stage, prod setup
+sites/sites.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+
+# Ignoring eclipse project metadata files
+.buildpath
+.project
+.settings
+.settings/*
+
+# Ignore all temporary files
+*~

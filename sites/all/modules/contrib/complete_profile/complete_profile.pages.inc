@@ -24,7 +24,7 @@ function complete_profile_form($form, &$form_state, $account) {
   }
 
   $form['help'] = array(
-    '#markup' => '<p>' . t('Fill out the following fields to complete your profile.') . '</p>',
+    '#markup' => '<p>Your account has now been created and you are just one last step away from directly contributing to changing how politics is practiced in India.</p><p>Please take a moment to fill up the the below required details. These details are needed to help you use the AAP platform in various meaningful ways. Whether it be to build your own manifesto, or to demand answers from your candidates, and more.</p><p>Click here in case you need help filling up the data below. --- (NOTE useful link to be added) --- </p>',
     '#weight' => -100,
   );
 
