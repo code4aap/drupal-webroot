@@ -140,11 +140,17 @@
  
 .aap-main-content.latest-news-class {
          .pane-content {
-       background: url('../images/news_image.png') no-repeat 45% 0%;
-       padding-top: 15em;
        position:relative;
-       height:290px;
+       height:534px;
+       
+       .view-header img {
+       	width: 296px;
+       	height:222px;
+    		border: 1px solid #D7D7D7;
+    		border-radius: 0.4em 0.4em 0.4em 0.4em;
+       }
     }
+    
 }
 
 .aap-donation-class,
