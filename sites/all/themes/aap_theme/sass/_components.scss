@@ -259,3 +259,17 @@ input[type=radio], input.radio {
    }		  			  	
 }
 
+.surveymonkey-drupal-popup {
+  display: none;
+  text-align: center;
+  margin: 4em auto;
+  .close-btn {
+    color: red;
+  }
+  .pane-content {
+    text-align: center;
+    #surveyMonkeyInfo {
+      margin: 0 auto;
+    }
+  }
+}
