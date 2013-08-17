@@ -143,8 +143,19 @@
       @include aap_font_body;
       color:#1f7fa2;
     }
+    
 }
- 
+ .aap-poll-class  {
+ 		a {
+    	 font-family: $font-family-group !important;
+       color: #333333 !important;
+       font-size: 0.596em !important;
+      }
+     .node__title {
+     	line-height: 0.8em;
+     }  
+       
+    }
 .aap-main-content.latest-news-class {
          .pane-content {
        position:relative;
@@ -164,7 +175,7 @@
 .aap-story-class.aap-main-content {
 		.pane-content {
 			margin-top: 5%;
-			height: 15em;
+			height: 16em;
 			position:relative;
 		}
 		 
