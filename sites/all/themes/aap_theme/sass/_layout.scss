@@ -560,8 +560,12 @@
        .pane-content {
             margin-top : 4%;
        }
-       .pane-content .node-teaser{
+       .pane-content 
+        .node-teaser, 
+        .node--full,
+        .search-result {
        			@include aap_content_item;
+       	
        } 
        
         .links.links--inline {
@@ -632,6 +636,10 @@
     	height: 230px;
       .form-radios {
            margin: 0;
+       }
+       
+       .donate-link {
+       	margin: 6px 35px;
        }
     }
   } 
