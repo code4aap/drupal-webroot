@@ -536,16 +536,18 @@
     font-family: arial;
     font-size: 14px;
     margin-top: 14%;
- } 	 	
-  /*********************************************************************
+ } 	
+ 
+  	
+/*********************************************************************
   
-    * Layout for dafault page
-    *
-    *******************************************************************/
+  * Layout for dafault page
+  *
+ *******************************************************************/
     
 .aap-page-content-class {
       
-      .field__items img {
+      .aap-news-item-class .field__items img {
   		  width: 100% !important ;
   		 }
        .pane-title {
@@ -663,3 +665,128 @@
       background: url(../images/bullet_img.png) no-repeat 5px 7px;
     }
  } 
+ 
+/*********************************************************************
+  
+  * Layout for candidate detail page
+  *
+ *******************************************************************/
+	.aap-page-content-class {
+		
+		#candidate-detail-page {
+					.panels-flexible-row > .inside {
+  						width: 720px;
+					}
+       		@include aap_content_item;
+       			
+       		.candidate-info-region {
+       					margin-left: 6em;
+       					width: 500px;
+       					
+    						.candidate-name	.field__item {
+										font-size: 1.2em;
+    								font-weight: bold;
+            			}
+            		.field__items {
+            				width: 250px;
+            		}	
+       				}
+       		.pane-content {
+            		margin-top : 2%;
+            
+            		.field__label {
+            				@include aap_font_body;
+            				font-weight: bold;
+            				width: 200px;
+            			}
+            		.field__item {
+            				@include aap_font_body;
+            				 a { 
+      									font-family: $font-family-group;
+      									color:#f17e00; text-decoration:none; font-weight:normal;
+    									 }
+            			}
+            
+       		}
+    
+   	}
+  
+}
+
+
+/*********************************************************************
+  
+  * Layout for candidate detail page
+  *
+ *******************************************************************/
+ 
+ .aap-page-content-class {
+		
+		#constituency-detail-page {
+					.panels-flexible-row > .inside {
+  						width: 720px;
+					}
+					a {
+         				font-family: $font-family-group;
+      					color:#f17e00; text-decoration:none; font-weight:normal;
+         		}
+       		@include aap_content_item;
+       		.pane-content {
+            		margin-top : 2%;
+            		.field__label {
+            				@include aap_font_body;
+            				font-weight: bold;
+            				width: 200px;
+            			}
+            		.field__item {
+            				@include aap_font_body;
+            			}
+            
+       		}
+       		
+       		.constituency-detail-region {
+       				margin-left: 5em;
+    					width: 500px;
+       		}
+       		.aap-candidate-info p {
+       				margin: 0;
+       		}
+       		.aap-constituency-row {
+            	border-bottom: 1px solid $border-color; 
+            }
+         .constituency-candidate-region {
+         			.aap-candidate-consituency {
+         					font-size: 1.3em;
+         			}
+         			.aap-candidate-name {
+         				@include aap_font_body;
+         				color:#f17e00;
+         				font-size: 1.2em;
+         				font-weight: bold;
+         			}
+         		
+         } 
+          .shs-hierarchy {
+          	list-style: none;
+          	.state:before {
+           		font-weight: bold;
+           		padding-right: 5em;
+          		content: "State:";	
+          	}
+          	.district:before {
+           		font-weight: bold;
+           		padding-right: 4em;
+          		content: "District:";	
+          	}
+          	.constituency:before {
+           		font-weight: bold;
+           		padding-right: 1em;
+          		content: "Constituency:";	
+          	}
+          }
+          .shs-hierarchy li:after {
+         		content: "";
+         	}	 
+           
+      }
+   }    		
