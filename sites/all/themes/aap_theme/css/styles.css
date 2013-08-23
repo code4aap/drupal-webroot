@@ -855,7 +855,27 @@
   * Layout for candidate detail page
   *
  *******************************************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003676}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003675}}
+.panelizer-service-links ul {
+  list-style: none;
+  float: left;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003680}}
+.panelizer-service-links li {
+  float: left;
+  padding-right: 7px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003684}}
+.panelizer-service-links a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #0A6181;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003694}}
 .aap-page-content-class #candidate-detail-page {
   border: 1px solid;
   border-radius: 0.3em;
@@ -866,7 +886,7 @@
   padding: 0 2%;
   color: #333333;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003677}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003695}}
 .aap-page-content-class #candidate-detail-page .panels-flexible-row > .inside {
   width: 720px;
 }
@@ -890,25 +910,25 @@
   text-decoration: none;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003682}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003700}}
 .aap-page-content-class #candidate-detail-page .candidate-info-region {
   margin-left: 6em;
   width: 500px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003686}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003704}}
 .aap-page-content-class #candidate-detail-page .candidate-info-region .candidate-name .field__item {
   font-size: 1.2em;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003690}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003708}}
 .aap-page-content-class #candidate-detail-page .candidate-info-region .field__items {
   width: 250px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003694}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003712}}
 .aap-page-content-class #candidate-detail-page .pane-content {
-  margin-top: 2%;
+  margin-top: 0.3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003697}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003715}}
 .aap-page-content-class #candidate-detail-page .pane-content .field__label {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.87em;
@@ -918,7 +938,7 @@
   font-weight: bold;
   width: 200px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003702}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003720}}
 .aap-page-content-class #candidate-detail-page .pane-content .field__item {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.87em;
@@ -926,7 +946,7 @@
   font-weight: normal;
   color: #333333;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003704}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003722}}
 .aap-page-content-class #candidate-detail-page .pane-content .field__item a {
   font-family: Arial, Helvetica, sans-serif;
   color: #f17e00;
@@ -939,7 +959,7 @@
   * Layout for candidate detail page
   *
  *******************************************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003725}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003743}}
 .aap-page-content-class #constituency-detail-page {
   border: 1px solid;
   border-radius: 0.3em;
@@ -950,16 +970,9 @@
   padding: 0 2%;
   color: #333333;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003726}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003744}}
 .aap-page-content-class #constituency-detail-page .panels-flexible-row > .inside {
   width: 720px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003729}}
-.aap-page-content-class #constituency-detail-page a {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #f17e00;
-  text-decoration: none;
-  font-weight: normal;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_base\.scss}line{font-family:\0000381}}
 .aap-page-content-class #constituency-detail-page .node__title a {
@@ -981,11 +994,11 @@
   text-decoration: none;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003734}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003749}}
 .aap-page-content-class #constituency-detail-page .pane-content {
   margin-top: 2%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003736}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003751}}
 .aap-page-content-class #constituency-detail-page .pane-content .field__label {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.87em;
@@ -995,7 +1008,7 @@
   font-weight: bold;
   width: 200px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003741}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003756}}
 .aap-page-content-class #constituency-detail-page .pane-content .field__item {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.87em;
@@ -1003,24 +1016,31 @@
   font-weight: normal;
   color: #333333;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003747}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003760}}
 .aap-page-content-class #constituency-detail-page .constituency-detail-region {
   margin-left: 5em;
   width: 500px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003751}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003765}}
 .aap-page-content-class #constituency-detail-page .aap-candidate-info p {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003754}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003768}}
+.aap-page-content-class #constituency-detail-page .aap-candidate-info a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f17e00;
+  text-decoration: none;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003773}}
 .aap-page-content-class #constituency-detail-page .aap-constituency-row {
   border-bottom: 1px solid #d7d7d7;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003758}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003777}}
 .aap-page-content-class #constituency-detail-page .constituency-candidate-region .aap-candidate-consituency {
   font-size: 1.3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003761}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003780}}
 .aap-page-content-class #constituency-detail-page .constituency-candidate-region .aap-candidate-name {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.87em;
@@ -1031,31 +1051,35 @@
   font-size: 1.2em;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003769}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003788}}
 .aap-page-content-class #constituency-detail-page .shs-hierarchy {
   list-style: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003771}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003790}}
 .aap-page-content-class #constituency-detail-page .shs-hierarchy .state:before {
   font-weight: bold;
   padding-right: 5em;
   content: "State:";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003776}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003795}}
 .aap-page-content-class #constituency-detail-page .shs-hierarchy .district:before {
   font-weight: bold;
   padding-right: 4em;
   content: "District:";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003781}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003800}}
 .aap-page-content-class #constituency-detail-page .shs-hierarchy .constituency:before {
   font-weight: bold;
   padding-right: 1em;
   content: "Constituency:";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003787}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003806}}
 .aap-page-content-class #constituency-detail-page .shs-hierarchy li:after {
   content: "";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003809}}
+.aap-page-content-class #constituency-detail-page .constituency-description {
+  margin-left: 2.3em;
 }
 
 /*******************************************************************************

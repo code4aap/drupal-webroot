@@ -668,46 +668,70 @@
  
 /*********************************************************************
   
+  * Theme for serivce link in panelizer
+  *
+ *******************************************************************/
+ .panelizer-service-links {
+ 		ul {
+ 					list-style: none;
+ 					float: left;
+ 					padding: 0;
+ 		}
+ 		li {
+ 					float: left;
+ 					padding-right: 7px;
+ 		}
+ 	  a {
+ 					font-family:$font-family-group;
+      		font-weight:bold; 
+      		color:#0A6181;
+      		font-size:14px; 
+      		text-decoration:none;
+ 		}
+ }
+ 
+ /*********************************************************************
+  
   * Layout for candidate detail page
   *
  *******************************************************************/
 	.aap-page-content-class {
 		
-		#candidate-detail-page {
-					.panels-flexible-row > .inside {
-  						width: 720px;
-					}
-       		@include aap_content_item;
+				#candidate-detail-page {
+							.panels-flexible-row > .inside {
+  								width: 720px;
+								}
+       				@include aap_content_item;
        			
-       		.candidate-info-region {
-       					margin-left: 6em;
-       					width: 500px;
+       				.candidate-info-region {
+       						margin-left: 6em;
+       						width: 500px;
        					
-    						.candidate-name	.field__item {
-										font-size: 1.2em;
-    								font-weight: bold;
-            			}
-            		.field__items {
-            				width: 250px;
-            		}	
-       				}
-       		.pane-content {
-            		margin-top : 2%;
+    							.candidate-name	.field__item {
+											font-size: 1.2em;
+    									font-weight: bold;
+            				}
+            			.field__items {
+            					width: 250px;
+            				}	
+       					}
+       				.pane-content {
+            			margin-top : 0.3em;
             
-            		.field__label {
-            				@include aap_font_body;
-            				font-weight: bold;
-            				width: 200px;
-            			}
-            		.field__item {
-            				@include aap_font_body;
-            				 a { 
+            			.field__label {
+            					@include aap_font_body;
+            					font-weight: bold;
+            					width: 200px;
+            				}
+            			.field__item {
+            					@include aap_font_body;
+            				 	a { 
       									font-family: $font-family-group;
       									color:#f17e00; text-decoration:none; font-weight:normal;
     									 }
-            			}
-            
-       		}
+            				}
+       					}
+       					
     
    	}
   
@@ -726,10 +750,7 @@
 					.panels-flexible-row > .inside {
   						width: 720px;
 					}
-					a {
-         				font-family: $font-family-group;
-      					color:#f17e00; text-decoration:none; font-weight:normal;
-         		}
+					
        		@include aap_content_item;
        		.pane-content {
             		margin-top : 2%;
@@ -741,15 +762,19 @@
             		.field__item {
             				@include aap_font_body;
             			}
-            
        		}
-       		
        		.constituency-detail-region {
        				margin-left: 5em;
     					width: 500px;
        		}
-       		.aap-candidate-info p {
-       				margin: 0;
+       		.aap-candidate-info {
+       						p {
+       									margin: 0;		
+       						}
+       						a {
+         								font-family: $font-family-group;
+      									color:#f17e00; text-decoration:none; font-weight:normal;
+         						}
        		}
        		.aap-constituency-row {
             	border-bottom: 1px solid $border-color; 
@@ -787,6 +812,8 @@
           .shs-hierarchy li:after {
          		content: "";
          	}	 
-           
+          .constituency-description {
+       			margin-left: 2.3em;
+       		} 
       }
    }    		
