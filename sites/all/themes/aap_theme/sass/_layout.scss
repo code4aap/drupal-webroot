@@ -668,7 +668,7 @@
  
 /*********************************************************************
   
-  * Theme for delhi site home page
+  * common Theme for delhi site page
   *
  *******************************************************************/
  
@@ -697,8 +697,19 @@
       		font-size:14px; 
       		text-decoration:none;
  		}
+ 		
  }
  
+ .aap-delhi-left-region {
+ 				border-right: 1px solid $border-color;
+ 		}
+ .aap-delhi-right-region {
+ 				padding-left: 5px;
+ 		}		
+ .aap-delhi-row {
+ 				margin-top: 4px;
+        border-bottom: 1px solid $border-color; 
+    }
  /*********************************************************************
   
   * Layout for candidate detail page
@@ -749,7 +760,7 @@
 
 /*********************************************************************
   
-  * Layout for candidate detail page
+  * Layout for constituency detail page
   *
  *******************************************************************/
  
@@ -786,8 +797,8 @@
          						}
        		}
        		.aap-constituency-row {
-            	border-bottom: 1px solid $border-color; 
-            }
+            		border-bottom: 1px solid $border-color; 
+          }
          .constituency-candidate-region {
          			.aap-candidate-consituency {
          					font-size: 1.3em;
@@ -798,8 +809,35 @@
          				font-size: 1.2em;
          				font-weight: bold;
          			}
+         			.pane-title {
+         				background: none;
+         				color: #333333;
+         				font-size: 1.6em;
+         				padding-left: 0;
+         			}
          		
+       			.aap-shortlisted-candidate {
+            		border-bottom: 1px solid $border-color; 
+            	}
+         		 .views-row-last.aap-shortlisted-candidate {
+         					border: none;
+         			}
+         
+         		 .aap-shortlisted-candidate {
+         				.panel-flexible {
+         						padding: 1em 0;
+         					}
+         		 }
+         		 .views-row-first.aap-shortlisted-candidate {
+         					.panel-flexible {
+         						padding: 0 0 1em 0;
+         					}
+         		}
+         		.pane-content {
+            		margin : 0;
+            }	
          } 
+         
           .shs-hierarchy {
           	list-style: none;
           	.state:before {
