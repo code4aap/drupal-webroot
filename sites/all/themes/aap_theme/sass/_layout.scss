@@ -668,7 +668,7 @@
  
 /*********************************************************************
   
-  * Theme for delhi site home page
+  * common Theme for delhi site page
   *
  *******************************************************************/
  
@@ -697,8 +697,21 @@
       		font-size:14px; 
       		text-decoration:none;
  		}
+ 		
  }
  
+ .aap-delhi-left-region {
+ 				border-right: 1px solid $border-color;
+ 		}
+ .aap-delhi-right-region {
+ 				padding-left: 5px;
+ 		}		
+ .aap-delhi-row,
+ .aap-delhi-region-content {
+ 				margin-top: 4px;
+        border-bottom: 1px solid $border-color; 
+    }
+
  /*********************************************************************
   
   * Layout for candidate detail page
@@ -735,8 +748,7 @@
             			.field__item {
             					@include aap_font_body;
             				 	a { 
-      									font-family: $font-family-group;
-      									color:#f17e00; text-decoration:none; font-weight:normal;
+      									@include aap_content_link;
     									 }
             				}
        					}
@@ -749,7 +761,7 @@
 
 /*********************************************************************
   
-  * Layout for candidate detail page
+  * Layout for constituency detail page
   *
  *******************************************************************/
  
@@ -781,13 +793,12 @@
        									margin: 0;		
        						}
        						a {
-         								font-family: $font-family-group;
-      									color:#f17e00; text-decoration:none; font-weight:normal;
+         								@include aap_content_link;
          						}
        		}
        		.aap-constituency-row {
-            	border-bottom: 1px solid $border-color; 
-            }
+            		border-bottom: 1px solid $border-color; 
+          }
          .constituency-candidate-region {
          			.aap-candidate-consituency {
          					font-size: 1.3em;
@@ -798,8 +809,33 @@
          				font-size: 1.2em;
          				font-weight: bold;
          			}
+         			.pane-title {
+         				@include aap_content_title_panelizer;
+         			}
          		
+       			.aap-shortlisted-candidate {
+            		border-bottom: 1px solid $border-color; 
+            	}
+         		 .views-row-last.aap-shortlisted-candidate {
+         					border: none;
+         			}
+         
+         		 .aap-shortlisted-candidate {
+         				.panel-flexible {
+         						padding: 1em 0;
+         					}
+         		 }
+         		 .views-row-first.aap-shortlisted-candidate {
+         					.panel-flexible {
+         						padding: 0 0 1em 0;
+         					}
+         		}
+         		.pane-content {
+         				border-bottom: 1px solid $border-color;
+         				padding-bottom: 5px;	
+            }	
          } 
+         
           .shs-hierarchy {
           	list-style: none;
           	.state:before {
@@ -823,6 +859,46 @@
          	}	 
           .constituency-description {
        			margin-left: 2.3em;
-       		} 
+       		}
+       		
+       		.constituency-contact-fields {
+       			.pane-title {
+       					@include aap_content_title_panelizer;
+       					margin-left: 3.5em;
+       				}
+       			
+       			.adr {
+       					margin-left: 3em;
+       			}	
+       			.fn,.street-address,
+       			.postal-code,.country-name,
+       			.locality,.region,
+       			.tel,.email {
+       					@include aap_font_body;
+       					font-size: 1.1em;
+       			}
+       			.email,.tel {
+       				margin-top: 0.5px;
+       				font-weight: bold;
+       				a {
+       						@include aap_content_link;
+       						font-weight: bold;
+       						font-size: 1.2em;
+       				}
+       				
+       				abbr[title], acronym[title] {
+     							border-bottom-width: 0;
+   						}
+       			}
+       	}
+       	.constituency-contact-container {
+       			margin-left:2.5em;
+       	}
+       	
+       	.constituency-container-1 {
+       		h2 {
+       			margin: 0;
+       		}
+       	}	
       }
    }    		
