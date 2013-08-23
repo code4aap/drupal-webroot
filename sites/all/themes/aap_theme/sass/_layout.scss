@@ -668,9 +668,18 @@
  
 /*********************************************************************
   
-  * Theme for serivce link in panelizer
+  * Theme for delhi site home page
   *
  *******************************************************************/
+ 
+ .aap-body-class.aap-delhi-body-class {
+ 		.panels-flexible-row.aap-background-class {
+  				background: url('../images/bg_flag.jpg') no-repeat 0% 1%;
+			}
+		.home-box-top {
+					margin-top: 3em;
+		}	
+ }
  .panelizer-service-links {
  		ul {
  					list-style: none;
