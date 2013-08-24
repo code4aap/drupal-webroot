@@ -97,3 +97,16 @@
       }
       
 }
+
+@mixin aap_content_title_panelizer {
+
+			background: none;
+      color: #333333;
+      font-size: 1.6em;
+      padding-left: 0;
+ }
+ 
+@mixin aap_content_link {
+		font-family: $font-family-group;
+    color:#f17e00; text-decoration:none; font-weight:normal;
+}   
